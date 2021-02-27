@@ -10,10 +10,10 @@ android {
         applicationId "club.plus1.state_of_the_cloud"
         minSdkVersion 21
         targetSdkVersion 30
-        versionCode 1
-        versionName "0.1"
-
+        versionCode gitVersionCode
+        versionName gitVersionName
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+        setProperty("archivesBaseName", "people.club-$versionName.$versionCode")
     }
 
     buildTypes {

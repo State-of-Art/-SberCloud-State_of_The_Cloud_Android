@@ -28,4 +28,9 @@
         <item name="android:layout_margin">0dp</item>
     </style>
 
+    <style name="StateOfTheCloud.CheckBox" parent="android:Widget.Material.CompoundButton.CheckBox">
+        <item name="android:fontFamily">@font/sbsans_text_regular</item>
+        <item name="android:textColor">@color/dark</item>
+    </style>
+
 </resources>

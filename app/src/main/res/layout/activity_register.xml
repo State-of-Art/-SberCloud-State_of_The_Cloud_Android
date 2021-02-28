@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/rootLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".view_activity.RegisterActivity">
+
+    <EditText
+        android:id="@+id/familyEdit"
+        style="@style/StateOfTheCloud.EditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/register_family_edit"
+        android:inputType="textPersonName"
+        tools:ignore="Autofill" />
+
+    <EditText
+        android:id="@+id/nameEdit"
+        style="@style/StateOfTheCloud.EditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/register_name_edit"
+        android:inputType="textPersonName"
+        tools:ignore="Autofill" />
+
+    <EditText
+        android:id="@+id/innEdit"
+        style="@style/StateOfTheCloud.EditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/register_inn_edit"
+        android:inputType="textPersonName"
+        tools:ignore="Autofill" />
+
+    <EditText
+        android:id="@+id/productEdit"
+        style="@style/StateOfTheCloud.EditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/register_product_edit"
+        android:inputType="textPersonName"
+        tools:ignore="Autofill" />
+
+    <EditText
+        android:id="@+id/emailEdit"
+        style="@style/StateOfTheCloud.EditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/register_email_edit"
+        android:inputType="textWebEmailAddress"
+        tools:ignore="Autofill" />
+
+    <EditText
+        android:id="@+id/phoneEdit"
+        style="@style/StateOfTheCloud.EditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/register_phone_edit"
+        android:inputType="phone"
+        tools:ignore="Autofill" />
+
+    <EditText
+        android:id="@+id/commentEdit"
+        style="@style/StateOfTheCloud.EditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/register_comment_edit"
+        android:inputType="textMultiLine"
+        android:maxLines="3"
+        tools:ignore="Autofill" />
+
+    <CheckBox
+        android:id="@+id/messagingCheckBox"
+        style="@style/StateOfTheCloud.CheckBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/register_messaging_checkbox" />
+
+    <CheckBox
+        android:id="@+id/processingCheckBox"
+        style="@style/StateOfTheCloud.CheckBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/register_processing_checkbox" />
+
+    <TextView
+        android:id="@+id/processingLink"
+        style="@style/StateOfTheCloud.TextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingStart="30dp"
+        android:text="@string/register_processing_link"
+        tools:ignore="RtlSymmetry" />
+
+    <TextView
+        android:id="@+id/confidentialityLink"
+        style="@style/StateOfTheCloud.TextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingStart="30dp"
+        android:text="@string/register_confidentiality_link"
+        tools:ignore="RtlSymmetry" />
+
+    <Button
+        android:id="@+id/sendButton"
+        style="@style/StateOfTheCloud.Button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/register_send_button"
+        android:textSize="18sp" />
+</LinearLayout>

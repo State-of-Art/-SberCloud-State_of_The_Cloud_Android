@@ -1,4 +1,4 @@
-package club.plus1.state_of_the_cloud.view;
+package club.plus1.state_of_the_cloud.view_activity;
 
 import android.os.Bundle;
 

@@ -1,10 +1,36 @@
 <resources>
     <string name="app_name">State Of The Cloud</string>
-    <string name="login_domen_edit">Домен</string>
+
+    <string name="login_domain_edit">Домен</string>
     <string name="login_login_edit">Логин</string>
     <string name="login_password_edit">Пароль</string>
     <string name="login_enter_button">Войти</string>
     <string name="login_register_button">Зарегистрироваться</string>
     <string name="login_recover_button">Забыли пароль?</string>
     <string name="login_hotline_button">Техническая поддержка</string>
+
+    <string name="register_family_edit">Фамилия</string>
+    <string name="register_name_edit">Ваше имя</string>
+    <string name="register_inn_edit">ИНН Юридического лица</string>
+    <string name="register_product_edit">Продукт SberCloud</string>
+    <string name="register_email_edit">Ваш e-mail</string>
+    <string name="register_phone_edit">Мобильный телефон</string>
+    <string name="register_comment_edit">Комментарий</string>
+    <string name="register_messaging_checkbox">Даю согласие на направление мне\nинформационных и рекламных сообщений</string>
+    <string name="register_processing_checkbox">Даю согласие на обработку персональных данных</string>
+    <string name="register_processing_link"><u>Согласие на обработку персональных данных</u></string>
+    <string name="register_confidentiality_link"><u>Политика конфиденциальности SberCloud</u></string>
+    <string name="register_send_button">Отправить</string>
+    <string name="register_send_snack_bar">Регистрационные данные отправлены</string>
+
+    <string name="hotline_operators_text">К сожалению все операторы заняты</string>
+
+    <string name="recovery_email_phone_edit">Введите e-mail или телефон</string>
+    <string name="recovery_get_code_button">Получить код</string>
+    <string name="recovery_code_edit">Введите полученный код</string>
+    <string name="recovery_check_code_button">Проверить код</string>
+    <string name="recovery_password_edit">Введите новый пароль</string>
+    <string name="recovery_confirm_edit">Ещё раз введите пароль</string>
+    <string name="recovery_change_password_button">Сменить пароль</string>
+    <string name="recovery_password_snack_bar">Пароль изменен</string>
 </resources>

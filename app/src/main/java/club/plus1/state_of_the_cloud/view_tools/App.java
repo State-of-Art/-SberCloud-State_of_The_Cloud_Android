@@ -1,4 +1,4 @@
-package club.plus1.state_of_the_cloud;
+package club.plus1.state_of_the_cloud.view_tools;
 
 import android.app.Application;
 

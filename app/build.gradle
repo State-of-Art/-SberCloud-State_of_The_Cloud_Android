@@ -16,6 +16,9 @@ android {
         setProperty("archivesBaseName", "people.club-$versionName.$versionCode")
     }
 
+    buildFeatures {
+        viewBinding true
+    }
     buildTypes {
         release {
             minifyEnabled false

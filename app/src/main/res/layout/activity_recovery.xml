@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".view_activity.RecoveryActivity">
+
+    <LinearLayout
+        android:id="@+id/firstStepRecoveryLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/emailPhoneEdit"
+            style="@style/StateOfTheCloud.EditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="@string/recovery_email_phone_edit"
+            android:inputType="textWebEmailAddress"
+            tools:ignore="Autofill,TextFields" />
+
+        <Button
+            android:id="@+id/getCodeButton"
+            style="@style/StateOfTheCloud.Button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/recovery_get_code_button" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/secondStepRecoveryLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:orientation="vertical"
+        android:visibility="gone">
+
+        <EditText
+            android:id="@+id/recoveryCodeEdit"
+            style="@style/StateOfTheCloud.EditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="@string/recovery_code_edit"
+            android:inputType="number"
+            tools:ignore="Autofill" />
+
+        <Button
+            android:id="@+id/checkCodeButton"
+            style="@style/StateOfTheCloud.Button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/recovery_check_code_button" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/thirdStepRecoveryLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:orientation="vertical"
+        android:visibility="gone">
+
+        <EditText
+            android:id="@+id/passwordEdit"
+            style="@style/StateOfTheCloud.EditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="@string/recovery_password_edit"
+            android:inputType="textPassword"
+            tools:ignore="Autofill" />
+
+        <EditText
+            android:id="@+id/confirmEdit"
+            style="@style/StateOfTheCloud.EditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="@string/recovery_confirm_edit"
+            android:inputType="textPassword"
+            tools:ignore="Autofill" />
+
+        <Button
+            android:id="@+id/changePasswordButton"
+            style="@style/StateOfTheCloud.Button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/recovery_change_password_button" />
+    </LinearLayout>
+
+</LinearLayout>
